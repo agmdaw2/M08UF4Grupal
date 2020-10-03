@@ -18,11 +18,12 @@ and open the template in the editor.
         <?php
         function LBAfuncion2(){
             echo "La segunda función";
+            echo "Si, es la segunda función";
         }
         ?>
         <?php
         function LBAfuncion3(){
-
+            
         }
         ?>
     </body>
