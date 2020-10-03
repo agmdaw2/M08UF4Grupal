@@ -12,7 +12,7 @@ and open the template in the editor.
     <body>
         <?php
         function AGMHola(){
-
+            echo "Buenos dias";
         }
         ?>
         <?php
