@@ -17,7 +17,7 @@ and open the template in the editor.
         ?>
         <?php
         function AGMadios(){
-
+            echo "Buenas noches";
         }
         ?>
         <?php

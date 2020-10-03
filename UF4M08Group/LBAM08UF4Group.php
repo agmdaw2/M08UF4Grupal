@@ -17,7 +17,7 @@ and open the template in the editor.
         ?>
         <?php
         function LBAfuncion2(){
-
+            echo "La segunda función";
         }
         ?>
         <?php
