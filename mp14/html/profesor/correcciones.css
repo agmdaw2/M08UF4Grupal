@@ -1,0 +1,15 @@
+.panelFlex {
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.panelBox {
+    
+    width: 99%;
+    height: 65vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    
+}

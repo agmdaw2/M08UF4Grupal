@@ -1,0 +1,27 @@
+body{
+    height:auto;
+    text-align: center;
+    background-color: #A0F0F0;
+}
+
+form{
+    padding-top: 25%;
+    text-align: center;
+}
+
+#formIni{
+    padding-top: 10%;
+    text-align: center; 
+}
+
+input{
+    background-color: #B3F6BF;
+}
+
+#inicio{
+    padding-top: 5%;
+}
+
+h1{
+    font-size: 100px;
+}

@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+#head{
+    
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    justify-content:space-around;
+    border: 2px solid #FF8900;
+    
+    border-right: 0;
+    border-left: 0;
+    
+    background-color: #FFD8AD;
+}
+
+#welcome{
+    color: black;
+    margin-top: 50px;
+}
+
+#logoIns{
+    padding:3px;
+    border:3px solid black;
+    background-color: white;
+}
+
+.botonPerfil {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+#menuLogoPersona {
+    position: relative;
+    display: inline-block;
+  }
+  
+.submenuPersona {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition: opacity 1s;
+  }
+  
+.submenuPersona a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.submenuPersona a:hover {
+    background-color: #ddd;
+}
+  
+#menuLogoPersona:hover .submenuPersona {
+    display: block;
+}
+  
+#menuLogoPersona:hover .botonPerfil {
+    background-color:#FFD8AD;
+    border: 1px solid #FF8900;
+}
+.mainBody{
+    padding:50px;
+    display:flex;
+    justify-content:space-around;
+}
+.lineaContenido{
+
+}
+
+.boton {
+    float: left;
+    margin-left: 100px;
+    font-family: Georgia;
+    font-size: 30px;
+    text-align: center;
+}
+
+#footer {
+    display:flex;
+    border: 2px solid #FF8900;
+    border-right: 0;
+    border-left: 0;
+    position: fixed;
+    background-color: #FFD8AD;
+    bottom: 0;
+    width: 100%;
+    justify-content:space-around;
+    height: 13%;
+}
+
+.footerChild {
+    float: left;
+    padding: 1%;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#botonejemplo{
+    padding: 50px 100px 50px 100px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 30%;
+    border: 4px solid navy;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+#boton2{
+    padding: 50px 100px 50px 100px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 50px;
+    border: 4px solid navy;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.botonactividades{
+    padding: 20px 50px 20px 50px;
+    float: left;
+    margin-top: 40px;
+    margin-left: 200px;
+    border: 4px solid navy;
+    border-radius: 20px;
+    background-color: whitesmoke;
+}
+
+.table{
+    margin-top: 200px;
+    margin-left: 200px;
+}
+tr,td{
+    margin-left: 200px;
+    border: 3px solid navy;
+    padding: 10px 500px 10px 20px;
+    border-radius: 5px;
+}
+
+.titulos{
+    background-color: gray;
+    padding: 50px 50px 50px 20px;
+}
+
+#titolHead {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.i{
+    width: 50%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+i {
+    cursor: pointer;
+}

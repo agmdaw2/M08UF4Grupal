@@ -1,0 +1,139 @@
+.container {
+
+    position: absolute;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    height: 60%;
+    
+}
+
+.box {
+
+    width: 90%;
+    height: 95%;
+
+}
+
+.whole, #todo {
+    border: 3px solid black;
+    height: 90%;
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: scroll;
+    overflow-x: hidden;
+
+}
+
+.acts, .user {
+
+    width: 100%;
+
+}
+
+.actividades, .user, .activUsuario {
+    width: 100%;
+    border: 0;
+    cursor: pointer;
+
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+}
+
+.user, .activUsuario {
+    font-size: 19px;
+}
+
+.th {background-color: darkgrey;}
+.parell {background-color: #c3c3c3;}
+.senar {background-color: #d3d3d3;}
+
+.parell, .senar {
+    font-weight: normal;
+}
+
+.row {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.listbox, #practicas {
+    width: 100%;
+    height: 100%;
+}
+
+.listBox {
+    width: 100%;
+    height: 90%;
+}
+
+.asignaturas {
+
+    font-size: 25px;
+    padding: 15px;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 20%;
+
+    border: 3px solid navy;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.flex {
+
+    width: 100%;
+    height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.selAsig {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#todo {
+
+    width: 100%;
+    height: 100%;
+
+}
+
+.user {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+
+}
+
+.user {
+    cursor: auto;
+}
+
+.nameAct, .nomAl {
+    width: 33%;
+}
+
+.activUsuario, .cellcorr {
+    width: 34%;
+    background-color: transparent;
+    border: 0;
+}

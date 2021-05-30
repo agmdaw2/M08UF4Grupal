@@ -1,0 +1,171 @@
+.box {
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+
+    width: 95%;
+    height: 95%;
+
+}
+
+.divNom, .divLogo, .divTheme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.divNom {
+    width: 100%;
+    height: 20%;
+}
+
+.divNom label, .divLogo label, .divTheme label {
+
+    margin-left: 2%;
+    font-size: 25px;
+    cursor: text;
+
+}
+
+.divNom input, .divNom button, .divTheme input {
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.divNom input, .divTheme input {
+
+    margin-left: 3%;
+    padding: 15px 20px;
+    width: 25%;
+
+    font-size: 20px;
+    border: 2px solid black;
+
+}
+
+.divNom button {
+
+    margin-left: 1.5%;
+
+    padding: 18px 20px;
+    border: 2px solid navy;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+.divLogo {
+    width: 100%;
+    height: 35%;
+}
+
+.imgLogo {
+
+    display: flex;
+    margin-left: 3%;
+    
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 75%;
+    width: 200px;
+    background-size: 200px;
+
+    border: 3px solid black;
+    justify-content: center;
+}
+
+#imgLogo {
+    padding: 5px;
+}
+
+.upload {
+    color: transparent;
+}
+
+.upload::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.upload {
+    margin-left: 3%;
+    width: 20%;
+}
+
+.upload::before {
+    content: 'Subir Logo';
+    display: inline-block;
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+}
+
+.divTheme {
+    width: 100%;
+    height: 20%;
+    border-bottom: 
+}
+
+.divBtns {
+    
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 25%;
+    
+    position: relative;
+}
+
+.divBtns button {
+    
+    padding: 20px;
+    
+    border: 3.5px solid navy;
+    border-radius: 15px;
+    background-color: whitesmoke;
+    
+    cursor: pointer;
+    font-size: 20px;
+    
+}
+
+.save {
+    position: absolute;
+    right: 0;
+    margin-right: 2%;
+}
+
+.llistat {
+    margin-left: 2%;
+}
+
+.colTheme {
+    
+    margin-left: 3%;
+    width: 75px;
+    height: 50px;
+    
+    padding: 2px;
+
+    font-size: 20px;
+    border: 2px solid black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.color {
+    width: 85%;
+    height: 85%;
+    border-radius: 10%;
+}
+
+.imgLogo img {
+    width: 100%;
+}

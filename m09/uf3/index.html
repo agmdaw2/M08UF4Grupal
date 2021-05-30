@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Titulo de la web| Menos de 55 caracteres</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="Debe contener las palabras clave, tratar de atraer clicks y de longitud entre 150 y 160 caracteres">
+        <link rel="stylesheet" href="main.css" />   
+    </head>
+    <body>
+
+        <video autoplay muted id="videoBackground" loop>
+            <source src="video/video3.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+            </soruce>
+        </video>
+        
+        <header>
+            <h1>F00tprint</h1>
+            <nav>
+                <a href="#">Casual</a>
+                <a href="#">Formal</a>
+                <a href="#">Sport</a>
+                <a href="#">Spring</a>
+            </nav>
+        </header>
+
+        <div id="lema">
+            <h2>La huella de camino</h2>
+            <div id="temporada">
+                <video autoplay muted onended="siguientePeli()" id="pelicula" width="700" height="480" >
+                    <source src="video/video1.mp4" type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </soruce>
+                </video>
+            </div>
+        </div>
+
+
+        <div class="content">
+            <h1>Footer</h1>
+            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique delicatissimi pro.</p>
+        </div>
+
+
+        <script>
+            var video_count =1,
+            videoPlayer = document.getElementById("pelicula");
+
+            function siguientePeli(){
+                video_count++;
+                if (video_count == 3) {
+                    video_count = 1;
+                }
+                var nextVideo = "video/video"+video_count+".mp4";
+                videoPlayer.src = nextVideo;
+                videoPlayer.play();
+                videoPlayer.play;
+            }
+        </script>
+
+    </body>
+</html>

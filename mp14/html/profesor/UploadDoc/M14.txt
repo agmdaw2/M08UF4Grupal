@@ -1,0 +1,8 @@
+PC.De quien era escudero Sancho Panza?
+rc.Don Quijote
+PL.Describe la aventura de los molinos escrita por Miguel de Cervantes.
+pm.Selecciona las afirmaciones correctas
+rc.Don Quijote era un señor que enloquecio gracias a los libros
+rc.Los molinos eran gigantes para Don Quijote
+ri.Sancho Panza montaba un caballo
+ri.El caballo de Don Quijote de llamaba Eustaquio

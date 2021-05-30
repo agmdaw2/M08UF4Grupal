@@ -1,0 +1,69 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#videoBackground {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit:cover;
+    object-position:center;
+    z-index: -3;
+  }
+
+  header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    position: fixed;
+  }
+   
+   
+  h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family:speed;
+    text-align: center;
+    font-size: 2.6rem;
+    width: 100%;
+    letter-spacing: .5rem;
+  }
+   
+  nav a {
+     text-decoration: none;
+     padding: 1rem;
+     color: inherit;
+     font-size: 1.2rem;
+  }
+   
+  #lema {
+     min-height: 100px;
+     text-align: center;
+     position: relative;
+     top:200px;
+  }
+
+  #temporada{
+    border-color: whitesmoke;
+    border-width: thin;
+  }
+
+  h2 { 
+    font-family: Georgia, serif;
+    font-size: 3rem;
+    text-align: center;
+    color: #fff;
+  }
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  

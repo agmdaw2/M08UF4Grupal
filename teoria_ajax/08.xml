@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grup>
+    <alumne>
+        <nom>Fede</nom>
+        <cognom>Grange</cognom>
+        <edat>48</edat>    
+    </alumne>
+    <alumne>
+        <nom>Jorge</nom>
+        <cognom>Rubio</cognom>
+        <edat>35</edat>    
+    </alumne>
+    <alumne>
+        <nom>Pol</nom>
+        <cognom>Prat</cognom>
+        <edat>29</edat>    
+    </alumne>
+</grup>
+
+
+
